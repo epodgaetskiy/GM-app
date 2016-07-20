@@ -20,6 +20,7 @@
 
 	<!-- Bootstrap -->
     <link rel="stylesheet" href="libs/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../app/libs/plugins-scroll/jquery.jscrollpane.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/fonts.min.css">
 	<link rel="stylesheet" href="css/main.min.css">
@@ -70,7 +71,7 @@
 	<div class="dictionary_main_wrapper">
 		<div class="column-left">
 			<div class="main_search">
-				<div class="library_selectCategory library_selectCategory-active">
+				<div class="library_selectCategory">
 					<span class="library_selectCategory-icon"></span>
 					<span class="library_selectCategory-title">Выбрать категорию
 					<ul class="library_categories-select-list">
@@ -280,6 +281,11 @@
 	
   
 	<script src="js/libs.js"></script> 
+	<script src="libs/plugins-scroll/jquery.jscrollpane.min.js"></script>
+	<script src="libs/plugins-scroll/jquery.mousewheel.js"></script>
+	<script type='text/javascript'>
+		$('.library_categories-select-list').jScrollPane()
+	</script>
 	<script src="js/common.js"></script>
 	<!-- For dictionary -->
 	<script src="js/dictionary.js"></script>
