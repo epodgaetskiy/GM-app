@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Заголовок</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Bootstrap -->
+    <link rel="stylesheet" href="libs/bootstrap/bootstrap.css">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.min.css">
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+
+</head>
+
+<body>
+	<header class="header">
+		<div class="header-wrapper">
+			<div class="header_navbar">
+				<div class="header_logo">
+					<a href="#" class="header_logo-text"><img src="assets/icons/logo.svg"></a>
+				</div>
+				<div class="header_navbar_list">
+					<a href="#" class="header_navbar-link header_navbar-link-active"><img src="assets/icons/library.svg" alt="">Библиотека</a>
+					<a href="#" class="header_navbar-link"><img src="assets/icons/star.svg" alt="">Достижения <p>скоро</p></a>
+				</div>
+			</div>
+			<div class="header_userSettings">
+				<div class="navbar_language-select">
+					<span class="navbar_language-select-title dictionary_language"><img src="assets/flags/en.png" alt="">
+					<ul class="navbar_languages-select-list">
+						<li><img src="assets/flags/en.png" alt="">English</li>
+						<li><img src="assets/flags/de.png" alt="">Deutsch</li>
+						<li><img src="assets/flags/pl.png" alt="">Polski</li>
+						<li><img src="assets/flags/it.png" alt="">Italiano</li>
+						<li><img src="assets/flags/fr.png" alt="">Français</li>
+						<li><img src="assets/flags/sp.png" alt="">Español</li>
+						<li><img src="assets/flags/ru.png" alt="">Русский</li>
+						<li><img src="assets/flags/ua.png" alt="">Українська</li>
+						<li><img src="assets/flags/li.png" alt="">Lietuviu</li>
+						<li><img src="assets/flags/cz.png" alt="">Česky</li>
+						<li><img src="assets/flags/by.png" alt="">Беларускi</li>
+						<li><img src="assets/flags/ch.png" alt="">中國</li>
+					</ul>
+					</span>
+				</div>
+				<div class="header_userSettings-profile">
+					<span class="header_userSettings-profile-active">
+						<img src="assets/avatars/ava-1.png" alt="">
+						<p>Konstantin Berezhski</p>
+					</span>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="dictionary_main_wrapper">
+		<div class="column-left">
+			<form method="post" class="myDictionary_editWord-form">
+				<input type="text" class="myDictionary_editWord-form-translateFrom" required placeholder="Поиск">
+				<input type="text" class="myDictionary_editWord-form-translateTo">
+				<button type="submit" class="myDictionary_editWord-form-addButton">
+					<img class="addWord_icon-active" src="assets/icons/add-b-active.svg">
+					<p class="myDictionary_editWord-form-addButton-text">Добавить</p>
+				</button>
+				<div class="myDictionary_editWord-form-cancelButton">Отмена</div>
+				<ul class="choose_translate-dropdown">
+					<li class="translate_dropdown-item">
+						<span class="translate_dropdown-item-text">превосходный</span>
+					</li>
+					<li class="translate_dropdown-item">
+						<span class="translate_dropdown-item-text">отличный</span>
+					</li>
+					<li class="translate_dropdown-item">
+						<span class="translate_dropdown-item-text">первосортный</span>
+					</li>
+					<li class="translate_dropdown-item">
+						<span class="translate_dropdown-item-text">супер</span>
+					</li>
+				</ul>
+			</form>
+			
+			<div class="main_words">
+				<div class="main_word">
+					<div class="main_word_item-checkbox">
+						<div class="word-checkbox-container">
+							<input type="checkbox" class="word-checkbox">
+							<label for="" class="word-checkbox-icon"></label>
+						</div>
+					</div>
+					<div class="main_word_item_field">
+						<div class="word_description">
+							<div class="sound-icon"></div>
+							<div class="word_description-text">
+								<p class="word_description-translateFrom">sympathetic characters</p>
+								<p class="word_description-translateTo">симпатичный характер</p>
+							</div>
+						</div>
+
+						<div class="main_word_item-transcription">[,sımpə'θetık 'kærıktəs]</div>
+						<div class="main_word_item-actions">
+							<div class="main_word_item_add">
+								<span class="addWord-tooltiptext">Добавить слово</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main_word">
+					<div class="main_word_item-checkbox">
+						<div class="word-checkbox-container">
+							<input type="checkbox" class="word-checkbox">
+							<label for="" class="word-checkbox-icon"></label>
+						</div>
+					</div>
+					<div class="main_word_item_field">
+						<div class="word_description">
+							<div class="sound-icon"></div>
+							<div class="word_description-text">
+								<p class="word_description-translateFrom">unsympathetic characters</p>
+								<p class="word_description-translateTo">несимпатичный характер</p>
+							</div>
+						</div>
+
+						<div class="main_word_item-transcription">['ʌn,sımpə'θetık 'kærıktəs]</div>
+						<div class="main_word_item-actions">
+							<div class="main_word_item_add">
+								<span class="addWord-tooltiptext">Добавить слово</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main_word">
+					<div class="main_word_item-checkbox">
+						<div class="word-checkbox-container">
+							<input type="checkbox" class="word-checkbox">
+							<label for="" class="word-checkbox-icon"></label>
+						</div>
+					</div>
+					<div class="main_word_item_field">
+						<div class="word_description">
+							<div class="sound-icon"></div>
+							<div class="word_description-text">
+								<p class="word_description-translateFrom">neutral characters</p>
+								<p class="word_description-translateTo">нейтральные характер</p>
+							</div>
+						</div>
+
+						<div class="main_word_item-transcription">['nju:trəl' kærıktəs]</div>
+						<div class="main_word_item-actions">
+							<div class="main_word_item_add">
+								<span class="addWord-tooltiptext">Добавить слово</span>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="main_word">
+					<div class="main_word_item-checkbox">
+						<div class="word-checkbox-container">
+							<input type="checkbox" class="word-checkbox">
+							<label for="" class="word-checkbox-icon"></label>
+						</div>
+					</div>
+					<div class="main_word_item_field">
+						<div class="word_description">
+							<div class="sound-icon"></div>
+							<div class="word_description-text">
+								<p class="word_description-translateFrom">ambiguous characters</p>
+								<p class="word_description-translateTo">неоднозначный характер</p>
+							</div>
+						</div>
+
+						<div class="main_word_item-transcription">[æm'bıgjuəs' kærıktəs]</div>
+						<div class="main_word_item-actions">
+							<div class="main_word_item_add">
+								<span class="addWord-tooltiptext">Добавить слово</span>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="main_word">
+					<div class="main_word_item-checkbox">
+						<div class="word-checkbox-container">
+							<input type="checkbox" class="word-checkbox">
+							<label for="" class="word-checkbox-icon"></label>
+						</div>
+					</div>
+					<div class="main_word_item_field">
+						<div class="word_description">
+							<div class="sound-icon"></div>
+							<div class="word_description-text">
+								<p class="word_description-translateFrom">heroic</p>
+								<p class="word_description-translateTo">героический, геройский</p>
+							</div>
+						</div>
+
+						<div class="main_word_item-transcription">[,sımpə'θetık 'kærıktəs]</div>
+						<div class="main_word_item-actions">
+							<div class="main_word_item_add">
+								<span class="addWord-tooltiptext">Добавить слово</span>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="main_word">
+					<div class="main_word_item-checkbox">
+						<div class="word-checkbox-container">
+							<input type="checkbox" class="word-checkbox">
+							<label for="" class="word-checkbox-icon"></label>
+						</div>
+					</div>
+					<div class="main_word_item_field">
+						<div class="word_description">
+							<div class="sound-icon"></div>
+							<div class="word_description-text">
+								<p class="word_description-translateFrom">wise</p>
+								<p class="word_description-translateTo">мудрый</p>
+							</div>
+						</div>
+
+						<div class="main_word_item-transcription">[waız]</div>
+						<div class="main_word_item-actions">
+							<div class="main_word_item_add">
+								<span class="addWord-tooltiptext">Добавить слово</span>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="main_word">
+					<div class="main_word_item-checkbox">
+						<div class="word-checkbox-container">
+							<input type="checkbox" class="word-checkbox">
+							<label for="" class="word-checkbox-icon"></label>
+						</div>
+					</div>
+					<div class="main_word_item_field">
+						<div class="word_description">
+							<div class="sound-icon"></div>
+							<div class="word_description-text">
+								<p class="word_description-translateFrom">innocent</p>
+								<p class="word_description-translateTo">невинный</p>
+							</div>
+						</div>
+
+						<div class="main_word_item-transcription">['ınəsənt]</div>
+						<div class="main_word_item-actions">
+							<div class="main_word_item_add">
+								<span class="addWord-tooltiptext">Добавить слово</span>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="main_word">
+					<div class="main_word_item-checkbox">
+						<div class="word-checkbox-container">
+							<input type="checkbox" class="word-checkbox">
+							<label for="" class="word-checkbox-icon"></label>
+						</div>
+					</div>
+					<div class="main_word_item_field">
+						<div class="word_description">
+							<div class="sound-icon"></div>
+							<div class="word_description-text">
+								<p class="word_description-translateFrom">faithful</p>
+								<p class="word_description-translateTo">верный, преданный</p>
+							</div>
+						</div>
+
+						<div class="main_word_item-transcription">['feıθful]</div>
+						<div class="main_word_item-actions">
+							<div class="main_word_item_add">
+								<span class="addWord-tooltiptext">Добавить слово</span>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="main_word">
+					<div class="main_word_item-checkbox">
+						<div class="word-checkbox-container">
+							<input type="checkbox" class="word-checkbox">
+							<label for="" class="word-checkbox-icon"></label>
+						</div>
+					</div>
+					<div class="main_word_item_field">
+						<div class="word_description">
+							<div class="sound-icon"></div>
+							<div class="word_description-text">
+								<p class="word_description-translateFrom">human</p>
+								<p class="word_description-translateTo">гуманный</p>
+							</div>
+						</div>
+
+						<div class="main_word_item-transcription">['hju:mən]</div>
+						<div class="main_word_item-actions">
+							<div class="main_word_item_add">
+								<span class="addWord-tooltiptext">Добавить слово</span>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="main_word">
+					<div class="main_word_item-checkbox">
+						<div class="word-checkbox-container">
+							<input type="checkbox" class="word-checkbox">
+							<label for="" class="word-checkbox-icon"></label>
+						</div>
+					</div>
+					<div class="main_word_item_field">
+						<div class="word_description">
+							<div class="sound-icon"></div>
+							<div class="word_description-text">
+								<p class="word_description-translateFrom">human</p>
+								<p class="word_description-translateTo">гуманный</p>
+							</div>
+						</div>
+
+						<div class="main_word_item-transcription">['hju:mən]</div>
+						<div class="main_word_item-actions">
+							<div class="main_word_item_add">
+								<span class="addWord-tooltiptext">Добавить слово</span>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="main_word">
+					<div class="main_word_item-checkbox">
+						<div class="word-checkbox-container">
+							<input type="checkbox" class="word-checkbox">
+							<label for="" class="word-checkbox-icon"></label>
+						</div>
+					</div>
+					<div class="main_word_item_field">
+						<div class="word_description">
+							<div class="sound-icon"></div>
+							<div class="word_description-text">
+								<p class="word_description-translateFrom">villainous</p>
+								<p class="word_description-translateTo">подлый, злодейский</p>
+							</div>
+						</div>
+
+						<div class="main_word_item-transcription">['vılənəs]</div>
+						<div class="main_word_item-actions">
+							<div class="main_word_item_add">
+								<span class="addWord-tooltiptext">Добавить слово</span>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column-right">
+			<!-- Card-vocabulary -->
+			<div class="myDictionary_dictionary">
+				<div class="dictionary_about">
+					<div class="dictionary_about-layer"></div>
+					<h3 class="dictionary_about-title">Мой словарь</h3>
+					<p class="dictionary_about-count">8 слов</p>
+				</div>
+				<div class="dictionary_description myDictionaryEdit-dictionary_description myDictionaryEdit-dictionary_description-active">
+					<img src="assets/icons/add-b-active.svg" alt="">
+					<h3>УЧИТЬ</h3>
+					<span></span>
+				</div>
+				<div class="dictionary_description myDictionaryEdit-dictionary_description">
+					<img class="dictionary_edit-icon" src="assets/icons/pen-active.svg" alt="">
+					<h3>РЕДАКТИРОВАТЬ</h3>
+					<span></span>
+				</div>
+			</div>
+		    <!-- Leaders -->
+			<div class="leaderboard">
+				<h3 class="leaderboard_title">Лидеры</h3>
+				<div class="leaderboard_person">
+					<div class="leaderboard_personalInfo">
+						<img src="assets/avatars/ava-2.png" alt="">
+						<div class="leaderboard_personalInfo_descr">
+							<h3 class="leaderboard_personalInfo-name">Oksana Romanova</h3>
+							<p class="leaderboard_personalInfo-wordRecord">5 647 слов</p>
+						</div>
+					</div>
+					<div class="leaderboard_place first_place">1</div>
+				</div>
+				<div class="leaderboard_person">
+					<div class="leaderboard_personalInfo">
+						<img src="assets/avatars/ava-3.png" alt="">
+						<div class="leaderboard_personalInfo_descr">
+							<h3 class="leaderboard_personalInfo-name">Igor Felisov</h3>
+							<p class="leaderboard_personalInfo-wordRecord">4 501 слов</p>
+						</div>
+					</div>
+					<div class="leaderboard_place second_place">2</div>
+				</div>
+				<div class="leaderboard_person">
+					<div class="leaderboard_personalInfo">
+						<img src="assets/avatars/ava-4.png" alt="">
+						<div class="leaderboard_personalInfo_descr">
+							<h3 class="leaderboard_personalInfo-name">Denis Gusev</h3>
+							<p class="leaderboard_personalInfo-wordRecord">4 026 слов</p>
+						</div>
+					</div>
+					<div class="leaderboard_place third_place">3</div>
+				</div>
+				<div class="leaderboard_person">
+					<div class="leaderboard_personalInfo">
+						<img src="assets/avatars/ava-5.png" alt="">
+						<div class="leaderboard_personalInfo_descr">
+							<h3 class="leaderboard_personalInfo-name">Nadya Mazurenkoa</h3>
+							<p class="leaderboard_personalInfo-wordRecord">3 776 слов</p>
+						</div>
+					</div>
+					<div class="leaderboard_place">4</div>
+				</div>
+				<div class="leaderboard_person">
+					<div class="leaderboard_personalInfo">
+						<img src="assets/avatars/ava-6.png" alt="">
+						<div class="leaderboard_personalInfo_descr">
+							<h3 class="leaderboard_personalInfo-name">Andrew Young</h3>
+							<p class="leaderboard_personalInfo-wordRecord">3 188 слов</p>
+						</div>
+					</div>
+					<div class="leaderboard_place">5</div>
+				</div>
+				<a href="#" class="leaderboard_all-link">ВЕСЬ СПИСОК</a>
+			</div>
+			<!-- Socials -->
+			<div class="social-block">
+				<p>Следите за LINGUA в соц. сетях</p>
+				<ul class="social-icons">
+					<li><a href="" class="social--go"><img src="assets/social/vk.svg" alt="" class="social-icon"></a></li>
+					<li><a href="" class="social--go"><img src="assets/social/fb.svg" alt="" class="social-icon"></a></li>
+					<li><a href="" class="social--go"><img src="assets/social/tw.svg" alt="" class="social-icon"></a></li>
+					<li><a href="" class="social--go"><img src="assets/social/gp.svg" alt="" class="social-icon"></a></li>
+					<li><a href="" class="social--go"><img src="assets/social/ok.svg" alt="" class="social-icon"></a></li>
+					<li><a href="" class="social--go"><img src="assets/social/ins.svg" alt="" class="social-icon"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	
+  
+	<script src="js/libs.js"></script>
+	<!-- Optional js -->
+	<script src="js/common.js"></script>
+	<!-- For dictionary -->
+	<script src="js/dictionary.js"></script>
+
+</body>
+</html>

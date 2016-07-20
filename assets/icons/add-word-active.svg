@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="18px" viewBox="0 0 20 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Lingua" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Dictionary" sketch:type="MSArtboardGroup" transform="translate(-815.000000, -562.000000)" fill="#fff">
+            <g id="list" sketch:type="MSLayerGroup" transform="translate(113.000000, 220.000000)">
+                <g id="5" transform="translate(0.000000, 312.000000)" sketch:type="MSShapeGroup">
+                    <path d="M715,37 L720.5,37 L715,31.5 L715,37 L715,37 Z M704,30 L716,30 L722,36 L722,46 C722,47.1045695 721.104569,48 720,48 L704,48 C702.89,48 702,47.1 702,46 L702,32 C702,30.89 702.89,30 704,30 L704,30 Z M704,32 L704,46 L720,46 L720,39 L713,39 L713,32 L704,32 L704,32 Z M708,44 L708,42 L706,42 L706,40 L708,40 L708,38 L710,38 L710,40 L712,40 L712,42 L710,42 L710,44 L708,44 L708,44 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="36px" viewBox="0 0 24 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Lingua" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Words-Slider" sketch:type="MSArtboardGroup" transform="translate(-1110.000000, -514.000000)" fill="#FFFFFF">
+            <path d="M1140,530 L1111.66,530 L1118.82,522.82 L1116,520 L1104,532 L1116,544 L1118.82,541.16 L1111.66,534 L1140,534 L1140,530 L1140,530 Z" id="down" sketch:type="MSShapeGroup" transform="translate(1122.000000, 532.000000) rotate(-90.000000) translate(-1122.000000, -532.000000) "></path>
+        </g>
+    </g>
+</svg>

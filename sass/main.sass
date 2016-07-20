@@ -1,0 +1,54 @@
+@import "bourbon"
+@import "vars.sass"
+
+//Load Libs SASS
+@import "app/libs/animate/animate.sass"
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.6	
+	font-family: 'Roboto', sans-serif
+	overflow-x: hidden
+	background-color: #ecf2fb
+
+.hidden
+	display: none
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+//components
+@import "sass/components/_header.sass"
+//pages
+@import "sass/pages/dictionary.sass"
+@import "sass/pages/landing.sass"
+@import "sass/pages/sign_up.sass"
+@import "sass/pages/choose_lang.sass"
+@import "sass/pages/slider.sass"
+@import "sass/pages/library.sass"
+
+
+//ALWAYS END
+@import "media"
