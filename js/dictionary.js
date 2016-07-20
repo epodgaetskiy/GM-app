@@ -51,6 +51,7 @@ $(document).ready(function(){
 	})
 	$('.library_selectCategory').on('click', function() {
 		$('.library_categories-select-list').toggleClass('active');
+		$('.library_selectCategory').toggleClass('library_selectCategory-active')
 	})
 
 	$('.library-card-addButton')
@@ -59,5 +60,12 @@ $(document).ready(function(){
 	})
 	.mouseleave(function() {
 		$(this).find('.library-card-tooltip').css('display', 'none');
-	})	
+	})
+	$('.main_word_item_field').on('click', function(){
+		$('.slider-wrapper').toggle(1);
+		$('.slider-wrapper').css('display', 'flex')
+	})
+	$('.modal_slider-close').on('click', function() {
+		$('.slider-wrapper').css('display', 'none')
+	}) 
 })
